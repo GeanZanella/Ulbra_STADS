@@ -1,0 +1,200 @@
+body{
+	font-family: helvetica, sans-serif;
+}
+a:link, a:visited{
+	color: #ff6600;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrap{
+	width: 920px;
+	margin: auto;
+	background: #c0c0c0;
+	padding: 10px 20px;
+}
+header img{
+	width: 100px;
+	float: right;
+}
+header nav ul{
+	list-style: none;
+	padding-left: 0;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul li a{
+	font-size: 18px;
+}
+#content{
+	float: left;
+	width: 640px;
+}
+#sidebar{
+	float: right;
+	width: 280px;
+}
+#sidebar ul{
+	list-style: none;
+}
+footer{
+	clear: both;
+}
+section a img{
+	width: 500px;
+	height: 250px;
+	border: solid 2px;
+	color: #333333;
+}
+aside label{
+	display: block;
+}
+aside textarea{
+	width: 270px;
+	height: 90px;
+}
+aside input[type=submit]{
+	background: #333333;
+	color: #ffffff;
+	cursor: pointer;
+}
+article iframe{
+	width: 300px;
+	height: 200px;
+}
+article video{
+	width: 300px;
+	height: 200px;
+}
+footer img{
+	width: 300px;
+}
+
+
+body{
+	background: #f1f1f1;
+	color: #555;
+}
+
+.corpo {
+	width: 960px;
+	margin: auto;
+}
+
+.conteudo {
+	display: table;
+}
+
+.imagem {
+	display: table-cell;
+	float: left;
+}
+
+.texto {
+	display: table-cell;
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+section img{
+	width: 350px;
+	border: solid 2px;
+	color: #333333;
+}
+
+
+h1{
+	color: #ff6600;
+	letter-spacing: -1px;
+	text-transform: capitalize;
+	width: 650px;
+	text-shadow: 1px 1px 1px black;
+	font-family: sans-serif;
+}
+.texto1 {
+	width: 650px;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+
+
+
+.folha {
+	width: 780px;
+	margin: auto;
+	font-family: 'Source sans Pro', Calibri, Tahoma; sans-serif;
+	font-size: 16px;
+	border: 5px solid #3388cc;
+	border-radius: 10px;
+	box-shadow: 2px 4px 3px black;
+	padding: 20px;
+	background-color: white;
+
+}
+
+.infophoto {
+	height: 250px;
+}
+
+.info {
+	float: left;
+}
+
+.photo {
+	float: right;
+}
+
+.section {
+	margin-bottom: 70px;
+} 
+
+.sec-esquerda {
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.sec-reta {
+	margin-left: 150px;
+	margin-top: 37px;
+}
+
+h2{
+	font-size: 28px;
+	color: #3388bb;
+	border-bottom: 3px solid #3388dd;
+}
+
+img{
+	width: 200px;
+}
+
+.duration {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#forma-esquerda p {
+	margin-bottom: 37px;
+}
+
+#outras-esquerda p {
+	margin-bottom: 37;
+}
+
+#exper-esquerda p {
+	margin-bottom: 37px;
+}
+

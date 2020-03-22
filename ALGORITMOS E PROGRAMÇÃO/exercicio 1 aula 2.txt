@@ -1,0 +1,206 @@
+ 
+                  1- algoritimo de salarial
+
+var
+ 
+     numero do funcionario: inteiro
+     numero de horas trabalhadas: real 
+     valor da hora:real
+     salario:real
+inicio
+     escreva("digite numero do funcionario")
+     leia(numero do funcionario)
+     escreva("digite o numero de horas trabalhadas")
+     leia(horas)
+     escreva("digite o valor da hora trabalhada")
+     leia(valor pago por hora)
+     
+     salario  <-(valor hora* numero de horas)
+     
+
+     escreva("valor total", numero do funcionario, "e" salario)
+
+fim algoritimo 
+  
+               
+                 2- algoritimo codigo de pecas
+var
+	codigo 1,quant1,codigo 2, quant2:inteio
+	valor1, valor2, percentual,valor ipi,total, total_final:real
+	
+inicio	
+	escreva("codigo peca 1:")
+	leia(codigo 1)
+	escreva("escreva quantidade peca 1:")
+	leia(quant1)
+	escreva("valor peca 1:")
+	leia(valor 1)
+	escreva("codigo peca 2:")
+	leia(codigo 2)
+	escreva("escreva quantidade de peca 2:")
+	leia(quant2)
+	escreva("valor peca 2:")
+	escreva("percentual de IPI:")
+	leia(percentual)
+	total<-quant1*valor+quant2*valor2
+	valor<-total*percentual/100
+	total_final<-total+valor IPI
+	escreva(" total da compra com IPI:" total_final)  
+
+
+              3- algoritimos exercicios 
+var 
+	A,B,subtrcao,multiplicacao,divisao:inteiro	
+	divisao:real
+inicio
+	escreva("digite um numeri inteiro:")
+	leia(A)
+	escreva("digite outro numero interio:")
+	leia(b)
+	soma<-A+b
+	subtracao<-A-b
+	multilicacao<-a*b
+	divisao<-a/b
+	escreva("soma=",soma)
+	escrava("subtracao=",subtracao)
+	escreva("multiplicacao=",multiplicacao)	
+	escreva("divisao=",divisao)
+
+fim algoritimo		
+
+	       4-algoritimo para calcular a media
+var
+	n1,n2, media:real
+inicio
+	escreva("digite um numero")
+	leia(n1)
+	escreva("digite outro numero")
+	leia(n2)
+	resultado<-(n1+n2)/2
+	escreva("media=",resultado)
+fim algoritimo
+
+
+	   5-algoritimo triangulo     GEAN
+var
+	base,altura,area_total:inteiro
+inicio	
+	escreva("digite valor da base:")
+	leia(base)
+	escreva("digite valor altura:")
+	leia(altura)
+	area_total<-(base*altura)/2
+	escreva("resultado final:",area_total)
+fimalgoritimo
+
+
+           6- algoritimo
+var
+	num1, num2, x:interiro
+inicio
+	escreva("digite um numero")
+	leia(num 1)
+	escreva("digite outro numero")
+	leia(num 2)
+	x<-num1+num2
+	escreva("valor da soma:",x)
+fimalgoritimo	
+
+
+	     7- algoritimo coelhos
+var	
+	n_coelhos:inteiro
+	custo:real
+
+inicio
+	escreva("digite o numero de coelhos")
+	leia(n_coelhos)
+	CUSTO<-(N_COELHOS *0.70/18+10)
+	escreva("o custo e",custo)
+fimalgoritimo
+
+	  8-algoritimo de leitura
+var
+	num1,resul:inteiro
+inicio
+	escreva("digite um numero:")
+	leia("num1)
+	resul<-num1*num1
+	escreva("resultado igual: ",resul)
+
+	9-algoritimo
+var	
+	num1,num2,resul:real
+inicio
+	escreva("digite um numero:")
+	leia(num1)
+	escreva("digite outro numero:)
+	leia(num2)
+	resul<-num1+num2
+        escreva("soma de ",num1," + ",num2, " e igual: ",resul)
+
+
+
+	 10-algoritimo de calculo
+var
+ 	num1,num2,resultado:interiro
+inico 
+	escreva("digite um numero")
+	leia(num 1)
+	escreva("digite outro numero")
+	leia(num2)
+	resultado<-num1/nume2
+	escreva("divisao de ",num1,"por ",num2,"e igual ",resultado)
+
+fimalgoritimo
+
+	11-algoritimo 
+
+
+var
+	num1,num2,num3,media:real
+	
+inicio
+	escreva("digite um numero:")
+	leia(num1)
+	escreva("digite outro numero:")
+	leia(num2)
+	escreva("digite mais um numero:")
+        leia(num3)
+        media<- (num1+num2+num3)/3
+	escreva("a media de ",num1," + ",num2," + ",num3, " e igual: ",media)
+
+
+
+	12-algoritimo
+
+Var
+       num1,num2,num_1,num_2,resul:inteiro
+
+Inicio
+	escreva("digite um numero:")
+	leia(num1)
+	escreva("digite outro numero:")
+	leia(num2)
+	num_1<-num1*num1
+        num_2<-num2*num2
+        resul<-num_1-num_2
+        escreva("resultado:",resul)
+fimalgoritimo
+
+
+	13-algoritimo
+var
+	num1,num2,resul1,resul2,media:real
+inicio
+	   escreva("digite um numero")
+           leia(num1)
+           escreva("digite outro numero")
+           leia(num2)
+           resul1<-num1*4
+           resul2<-num2*6
+           media<-(resul1+resul2)/2
+           escreva (num1," x 4 e igual:" ,resul1)
+           escreva(num2," x 6 e igual:",resul2)
+           escreva(" a media dos resultados obtidos e:",media)
+fimalgoritimo
