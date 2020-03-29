@@ -1,0 +1,95 @@
+    *{
+        margin: 0 auto;
+    }
+    body{
+    
+        background-color: #e2e2e2;
+    }
+    .divtudo{
+        font-family: Arial, sans-serif;
+    }
+    .divlinha{
+        clear: both;
+    }
+    .h2titulosessao{
+        font-size: 20px;
+    }
+    #divcabecalho{
+        background-color: #162e58;
+        min-height: 100px;
+        padding: 20px 50px 10px 50px;
+    }
+    #h1titulocabecalho{
+        color: #ffffff;
+        float: left;
+        min-width: 50%;
+        font-size: 16px;
+        text-align: left;
+    }
+    #divclassificacao{
+        width: 50%;
+    }
+    #tableclassificacao{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    #h3tiulogrupo{
+        font-size: 14px;
+    }
+    #divgoleadores{
+        width: 50%;
+    }    
+    #tablegoleadores{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    #divjogos{
+        width: 50%;
+    }
+    #tablejogos{
+        width: 100%;
+        background-color: #ffffff;
+    }
+    ul li{
+        margin-bottom: 40px;
+      
+    }
+    ul.inline li{
+        display: inline;
+        margin-right: 20px;
+    }
+    ul.inline li:last-child{
+        margin-right: 0;
+    }
+    ul.sem-marcador,{
+        list-style: none;
+        
+    }
+    .menu{
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 70px;
+        
+    }
+    .menu li a{
+        padding: 10px 15px;
+        border-radius: 3px;
+        color:white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .menu li a:hover{
+        text-decoration: none;
+        background: #1f3c58;
+        color: white;
+    }
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(200, 200, 200);
+        letter-spacing: 1px;
+        
+    }
+    td {
+        text-align: center;
+    }
+
