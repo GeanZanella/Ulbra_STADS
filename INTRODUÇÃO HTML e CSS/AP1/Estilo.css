@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#folha{
+    width: 960px;
+    margin: auto;
+    border: 2px solid black;
+}
+.cabecalho{
+    height: 120px;
+}
+.cabecalho h1{
+    text-align: center;
+    color: orangered;
+    font-size: 70px;
+}
+.sessao{
+   
+}
+#article{
+    float: left;
+    width: 610px;
+    border: 1px solid black;
+    padding: 5px 5px; 
+}
+.noticia{
+    height: 200px;
+    border-bottom: 1px solid gainsboro;
+}
+.noticia .paragrafoNoticia{
+    width: 65%;
+   
+}
+.noticia .linkImgNoticia{
+    width: 35%;
+    
+}
+.paragrafoNoticia{
+    float: left;
+    margin-top: 10px;
+}
+.paragrafoNoticia a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.paragrafoNoticia h5{
+    color: chocolate;
+}
+.linkImgNoticia{
+    float: right;
+    margin-top: 20px;
+}
+.imgNoticia{
+    width: 190px;
+    height: 160px;
+}
+#sidebar{
+    float: right;
+    width: 326px;
+    border: 1px solid black;
+    padding: 5px 5px; 
+     
+}
+.artigo{
+    height: 200px;
+    border-bottom: 1px solid gainsboro;
+}
+.artigo .paragrafoTituloArtigo{
+    width: 50%;
+}
+.artigo .linkImgArtigo{
+    width: 50%;
+}
+.imgArtigo{
+    width: 150px;
+    height: 120px;
+    border-radius: 60%;
+}
+.imgArtigoLacasa{
+    width: 110px;
+    height: auto;
+    float: right;margin-top: 25px; margin-right: 15px;
+}
+.imgArtigoChoc{
+    width: 110px;
+    height: auto;
+    float: right;margin-top: 25px; margin-right: 15px;
+}
+.paragrafoTituloArtigo{
+    float: left;
+    margin-top: 22px;
+}
+.linkImgArtigo{
+    float: right;
+    margin-top: 27px;
+}
+.linkImgArtigo2{
+    float: right;
+    margin: 55px 15px 0px 0px;
+}
+.paragrafoTituloArtigo h5{
+    color: orange;
+}
+.paragrafoTituloArtigo a{
+    text-decoration: none;
+    color: black;
+}
+.divColor{
+    background-color: lavenderblush;
+}
+.title{
+    color: red;
+}
+.link{
+    color: slategray;
+}
+.rodape{
+    clear: both;
+    background-color: orangered;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.rodape p, a{
+    font-size: 14px;
+    color: white;
+}
+.rodape a{
+    text-decoration: none;
+}
+.rodape .assine{
+    padding: 8px;
+    background: black;
+    text-decoration: none;
+}
+.rodape i{
+    color: white;
+}
+.whatsapp{
+    float: right;margin-right: 10px;
+}
+.icone{
+    float: right; margin: 5px; margin-right: 10px; margin-bottom: 40px;
+    background-color: orangered;
+}
