@@ -1,0 +1,58 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#folha{
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.dados{
+    margin-top: 20px;
+}
+
+.botoes{
+    margin-top: 20px;
+}
+
+.pessoais label{
+    padding-right: 10px;
+    margin-top: 10px;
+    width: 75px;
+    display: inline-block;
+}
+
+.endereco label{
+    padding-right: 10px;
+    margin-top: 10px;
+    width: 50px;
+    display: inline-block;
+}
+
+.login label{
+    padding-right: 10px;
+    margin-top: 10px;
+    width: 125px;
+    display: inline-block;
+}
+
+input, select{
+    margin-top: 10px;
+}
+
+.botoes input[type=submit]{
+	background: #333333;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.botoes input[type=reset]{
+	background: #333333;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.dados input[type=number]{
+    width: 55px;
+}

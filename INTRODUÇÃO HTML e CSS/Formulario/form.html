@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Documento de formulário</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+    <div id="folha">
+        <h1><strong>Formulário HTML</strong></h1>
+        <form action="http://vinicius.pro.br/idw/receiveForm.php" method="post">   
+            <fieldset class="dados pessoais">
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" name="nome" />
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" name="sobrenome" /><br>
+                <label for="birthday">Nascimento:</label>
+                <input type="date" id="birthday" name="birthday"><br>
+                <label for="rg">RG:</label>
+                <input type="text" id="rg" placeholder="nro. identidade" name="rg" /><br>
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" placeholder="nro. CPF" name="cpf" />
+            </fieldset>
+            <fieldset class="dados endereco">
+                <legend>Dados de Endereço</legend>
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" placeholder="Digite sua rua" name="rua" />
+                <label for="quantity">Número:</label>
+                <input type="number" id="quantity" placeholder="nro." name="quantity" min="1" max="10000"><br>
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" placeholder="Digite seu bairro" name="bairro" /><br>
+                <label for="estados">Estado:</label>
+                <select id="estados" name="estados">
+                    <option value="acre">Acre</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="distrito_federal">Distrito Federal</option>
+                    <option value="espirito_santo">Espírito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="matanhao">Maranhão</option>
+                    <option value="mato_grosso">Mato Grosso</option>
+                    <option value="mato_grosso_do_sul">Mato Grosso do Sul</option>
+                    <option value="minas_gerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="rio_de_janeiro">Rio de Janeiro</option>
+                    <option value="rio_grande_do_norte">Rio Grande do Norte</option>
+                    <option value="rio_grande_do_sul">Rio Grande do Sul</option>
+                    <option value="rondonia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santa_catarina">Santa Catarina</option>
+                    <option value="sao_paulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select><br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" placeholder="Digite sua cidade" name="cidade" /><br>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" placeholder="Digite seu CEP" name="cep" />
+            </fieldset>
+            <fieldset class="dados login">
+                <legend>Dados de Login</legend>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail" name="email" /><br>
+                <label for="myfile">Imagem de perfil:</label>
+                <input type="file" id="myfile" name="myfile" /><br>
+                <label for="username">Login de usuário:</label>
+                <input type="text" id="username" placeholder="Digite o usuário" name="username" /><br>
+                <label for="pwd">Senha:</label>
+                <input type="password" id="pwd" placeholder="Digite sua senha" name="pwd" /><br>
+                <label for="pwd">Confirme a senha:</label>
+                <input type="password" id="pwd" placeholder="Digite sua senha" name="pwd" />
+            </fieldset>
+            <div class="botoes">
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpar" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>

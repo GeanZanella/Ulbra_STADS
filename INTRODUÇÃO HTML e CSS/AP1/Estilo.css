@@ -17,7 +17,7 @@ body{
 .sessao{
    
 }
-#article{
+article{
     float: left;
     width: 610px;
     border: 1px solid black;
