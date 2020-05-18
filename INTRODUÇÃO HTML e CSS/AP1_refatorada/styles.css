@@ -1,0 +1,86 @@
+
+/* estilo cabeçalho */
+header{
+    margin-bottom: 0 !important;
+   
+}
+
+header h1{
+    margin: 0px;
+}
+
+/* estilo sessão article */
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 10px 0px 5px 0px;
+}
+
+.paragrafoNoticia a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.paragrafoNoticia h5{
+    color: chocolate;
+}
+
+/* estilo sessão aside */
+.imgArtigo{
+    width: 150px;
+    height: 120px;
+    border-radius: 60%;
+}
+
+.paragrafoTituloArtigo{
+    margin-top: 22px;
+}
+
+.linkImgArtigo{
+    margin-top: 27px;
+}
+
+.linkImgArtigo2{
+    margin: 55px 15px 0px 0px;
+}
+
+.paragrafoTituloArtigo h5{
+    color: orange;
+}
+
+.paragrafoTituloArtigo a{
+    text-decoration: none;
+    color: black;
+}
+
+.divColor{
+    background-color: lavenderblush;
+    margin-top: 70px;
+}
+
+.title{
+    color: red;
+}
+
+.link{
+    color: slategray;
+}
+
+/* estilo footer*/
+footer{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    margin-bottom: 0 !important;
+   
+}
+footer a{
+    color: white !important;
+    text-decoration: none !important;
+    padding-right: 8px !important;
+}
+
+footer .assine{
+    padding: 8px !important;
+    background: black !important;
+}
