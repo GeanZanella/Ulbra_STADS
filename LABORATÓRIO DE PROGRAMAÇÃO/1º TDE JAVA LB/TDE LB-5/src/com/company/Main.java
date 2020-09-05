@@ -1,9 +1,15 @@
 package com.company;
 
+/*Elabore uma classe que receba o nome de um produto e o seu valor. O desconto deve
+ser calculado de acordo com o valor fornecido conforme a imagem. Utilizando a estrutura
+if-else, apresenta em tela o nome do produto, valor original do produto e o novo valor
+depois de ser realizado o desconto. Caso o valor digitado seja menor que zero, deve ser
+emitida uma mensagem de aviso.*/
+
 import java.util.Scanner;
 
-public class Main {
-
+public class Main
+{
     public static void main(String[] args)
     {
         String cod;
@@ -42,6 +48,5 @@ public class Main {
             val_final=val_pro-des_pro;
             System.out.printf("O produto  %s custa: %.2f com o desconto ficou: %.2f",cod,val_pro,val_final);
         }
-
     }
 }
